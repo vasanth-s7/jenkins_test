@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image : sampathsai/to-do:latest
+    image : ravalikadocker/to-do
     ports:
       - "80:80"
     volumes:
