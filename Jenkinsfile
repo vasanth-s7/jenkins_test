@@ -5,7 +5,7 @@ pipeline {
         stage("Code") {
             steps {
                 echo "Cloning the code"
-                git url: "https://github.com/Ravalika-j/To-Do-List-CI-CD-using-jenkins-github-web-hooks-Dockerhub-Docker", branch: "main"
+                git url: "https://github.com/Ravalika-j/jenkins-cicd", branch: "main"
             }
         }
         stage("Build") {
