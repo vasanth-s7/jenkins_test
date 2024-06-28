@@ -23,7 +23,7 @@ This repository contains a shell script to automate the installation of Docker, 
 1. Clone this repository to your local machine:
 
     ```sh
-    git clone https://github.com/Ravalika-j/To-Do-List-CI-CD-using-jenkins-github-web-hooks-Dockerhub-Docker.git
+    git clone https://github.com/Ravalika-j/jenkins-cicd.git
     ```
 
 2. Make the script executable:
@@ -173,7 +173,7 @@ pipeline {
         stage("Code") {
             steps {
                 echo "Cloning the code"
-                git url: "https://github.com/saisampathpaladi/to-do-list-cicd.git", branch: "main"
+                git url: "https://github.com/Ravalika-j/jenkins-cicd.git", branch: "main"
             }
         }
         stage("Test") {
