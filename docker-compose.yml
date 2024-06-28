@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    image : sampathsai/to-do:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/usr/share/nginx/html:ro
