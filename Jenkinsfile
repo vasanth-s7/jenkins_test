@@ -5,7 +5,7 @@ pipeline {
         stage("Code") {
             steps {
                 echo "Cloning the code"
-                git url: "https://github.com/saisampathpaladi/to-do-list-cicd.git", branch: "main"
+                git url: "https://github.com/Ravalika-j/jenkins-cicd.git", branch: "main"
             }
         }
         stage("Build") {
