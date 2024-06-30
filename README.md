@@ -154,7 +154,7 @@ Once the webhook is set up, any push to the GitHub repository will trigger the J
 
 This CI/CD pipeline automates the process of building, pushing, and deploying the To-Do List application. It ensures that the application is always up-to-date and tested, providing a reliable and efficient workflow.
 
-For any issues or contributions, please raise an issue or submit a pull request in the repository or email at saisampathpaladi@gmail.com.
+For any issues or contributions, please raise an issue or submit a pull request in the repository or email at ravalikajalla123@gmail.com.
 
 The pipeline performs the following steps:
 1. Clones the repository from GitHub.
@@ -218,6 +218,6 @@ pipeline {
 Conclusion
 This CI/CD pipeline automates the process of building, pushing, and deploying the To-Do List application. It ensures that the application is always up-to-date and tested, providing a reliable and efficient workflow.
 
-For any issues or contributions, please raise an issue or submit a pull request in the repository or email at saisampathpaladi@gmail.com.
+For any issues or contributions, please raise an issue or submit a pull request in the repository or email at ravalikajalla123@gmail.com.
 
  
